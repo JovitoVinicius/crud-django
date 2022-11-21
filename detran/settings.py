@@ -75,12 +75,8 @@ WSGI_APPLICATION = 'detran.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'detran',
-        'USER': 'detran',
-        'PASSWORD': 'detran',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
     }
 }
 
